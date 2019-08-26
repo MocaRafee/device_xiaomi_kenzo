@@ -38,7 +38,7 @@ BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/V8.2.1.0.MHOCNDL:user/release-
 
 # Build Official HavocOS
 HAVOC_BUILD_TYPE := Unofficial
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Define host and user
 KBUILD_BUILD_HOST=Moca
