@@ -1,27 +1,27 @@
 [
   {
     "remote":      "github",  
-    "repository":  "AmolAmrit/device_xiaomi_kenzo",
+    "repository":  "MocaRafee/device_xiaomi_kenzo1",
     "target_path": "device/xiaomi/kenzo",
-    "branch":      "queencake"
+    "branch":      "ten"
   },
   {
     "remote":      "github",  
-    "repository":  "AmolAmrit/device_xiaomi_msm8956-common",
+    "repository":  "MocaRafee/device_xiaomi_msm8956-common1",
     "target_path": "device/xiaomi/msm8956-common",
     "branch":      "queencake"
   },
   {
     "remote":      "github",  
-    "repository":  "AmolAmrit/Escrima_kernel_xiaomi_msm8956",
+    "repository":  "MocaRafee/Tenka-Toitsu-A-to-Z-_kernel_msm8956",
     "target_path": "kernel/xiaomi/msm8956",
-    "branch":      "queencake"
+    "branch":      "kalinanegev"
   },
   { 
     "remote":      "github",  
-    "repository":  "AmolAmrit/proprietary_vendor_xiaomi",
+    "repository":  "Magicxavi/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch":      "queencake"
+    "branch":      "ten"
   },
   { 
     "remote":      "github",  
