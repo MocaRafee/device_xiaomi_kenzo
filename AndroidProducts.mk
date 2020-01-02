@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_kenzo.mk
+    $(LOCAL_DIR)/superior_kenzo.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_kenzo-userdebug \
-    aosp_kenzo-eng
+    superior_kenzo-userdebug \
+    superior_kenzo-eng
