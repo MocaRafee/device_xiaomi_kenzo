@@ -15,8 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_kenzo.mk \
-    $(LOCAL_DIR)/aosp_kenzo.mk
+    $(LOCAL_DIR)/potato_kenzo.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_kenzo-userdebug \
-    aosp_kenzo-eng
+    potato_kenzo-userdebug \
+    potato_kenzo-eng
