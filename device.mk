@@ -46,6 +46,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/msm8976-tashalite-snd-card_Button_Jack.kl:system/usr/keylayout/msm8976-tashalite-snd-card_Button_Jack.kl \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl
 
+# Pixel identification
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.build.fingerprint=google/flame/flame:10/QQ2A.200501.001.A3/6353761:user/release-key
 
 # Ramdisk
 PRODUCT_PACKAGES += \
