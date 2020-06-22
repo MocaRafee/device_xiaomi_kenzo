@@ -18,6 +18,6 @@
 -->
 
 <resources>
-<dimen name="status_bar_height_portrait">80px</dimen>
-<dimen name="status_bar_height_landscape">69px</dimen>
+<dimen name="status_bar_height_portrait">92px</dimen>
+<dimen name="status_bar_height_landscape">85px</dimen>
 </resources>
