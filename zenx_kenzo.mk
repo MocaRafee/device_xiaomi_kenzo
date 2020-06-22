@@ -22,6 +22,10 @@ $(call inherit-product, vendor/zenx/config/phone-xxhdpi-2048-hwui-memory.mk)
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
+PRODUCT_PACKAGES += \
+    CameraGo \
+    GalleryGoPrebuilt
+
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
