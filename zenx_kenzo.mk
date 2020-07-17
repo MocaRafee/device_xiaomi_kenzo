@@ -24,7 +24,8 @@ TARGET_SCREEN_HEIGHT := 1920
 
 PRODUCT_PACKAGES += \
     CameraGo \
-    GalleryGoPrebuilt
+    GalleryGoPrebuilt \
+    RetroMusicPlayer
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
