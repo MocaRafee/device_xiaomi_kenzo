@@ -18,9 +18,6 @@
 -->
 
 <resources>
-	<dimen name="status_bar_height_portrait">92px</dimen>
-	<dimen name="status_bar_height_landscape">85px</dimen>
-
-    <!-- Total height of QQS (quick_qs_offset_height + 128) -->
-    <dimen name="quick_qs_total_height">176dp</dimen>
+    <!-- Total height of QQS in landscape, this is effectively status_bar_height_landscape + 128 -->
+    <dimen name="quick_qs_total_height">152dp</dimen>
 </resources>
