@@ -21,6 +21,9 @@ $(call inherit-product, vendor/zenx/config/common_full_phone.mk)
 $(call inherit-product, vendor/zenx/config/phone-xxhdpi-2048-hwui-memory.mk)
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
+LAWNCHAIR_OPTOUT := true
+PRODUCT_PACKAGES += \
+    NexusLauncherReleaseOverlay
 
 PRODUCT_PACKAGES += \
     CameraGo \
