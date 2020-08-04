@@ -15,10 +15,12 @@
 
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
-
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/common.mk)
-
+# Inherit some common PE stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+CUSTOM_BUILD_TYPE := keksur
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
