@@ -18,7 +18,7 @@ $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
 # Inherit some common ZenX-OS stuff.
 $(call inherit-product, vendor/zenx/config/common_full_phone.mk)
-$(call inherit-product, vendor/zenx/config/phone-xxhdpi-2048-hwui-memory.mk)
+#$(call inherit-product, vendor/zenx/config/phone-xxhdpi-2048-hwui-memory.mk)
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
