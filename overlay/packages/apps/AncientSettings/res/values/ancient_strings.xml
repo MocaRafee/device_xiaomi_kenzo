@@ -1,0 +1,8 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Barheight styles -->
+
+    <string name="qsbarheight_one">85px</string>
+    <string name="qsbarheight_two">92px</string>
+
+</resources>
