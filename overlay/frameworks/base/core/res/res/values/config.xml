@@ -28,11 +28,6 @@
     <string name="config_gpu_busy_path" translatable="false">/sys/class/kgsl/kgsl-3d0/gpubusy</string>
     <string name="config_battery_level_path" translatable="false">/sys/class/power_supply/battery/capacity</string>
 	
-    <!-- Sets the paths that are needed for Battery Health Info-->
-    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full</string>
-    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
-    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
-    <bool name="config_supportBatteryHealth">true</bool>
 </resources>
 
 
