@@ -41,6 +41,8 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
+# Security Patch Level
+VENDOR_SECURITY_PATCH := 2019-01-05
 
 # inherit from the proprietary version
 -include vendor/xiaomi/kenzo/BoardConfigVendor.mk

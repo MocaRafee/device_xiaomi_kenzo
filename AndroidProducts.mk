@@ -15,8 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_kenzo.mk \
-    $(LOCAL_DIR)/zenx_kenzo.mk
+    $(LOCAL_DIR)/rr_kenzo.mk
 
 COMMON_LUNCH_CHOICES := \
-   zenx_kenzo-userdebug \
-   zenx_kenzo-eng
+   rr_kenzo-userdebug \
+   rr_kenzo-eng
