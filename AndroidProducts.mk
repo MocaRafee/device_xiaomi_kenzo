@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_kenzo.mk
+    $(LOCAL_DIR)/conquer_kenzo.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_kenzo-userdebug \
-    superior_kenzo-eng
+    conquer_kenzo-userdebug \
+    conquer_kenzo-eng
